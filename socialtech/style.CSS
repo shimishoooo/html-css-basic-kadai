@@ -1,0 +1,189 @@
+@charset 'UTF-8';
+body {
+    font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+    max-width: 1080px;
+    min-width: 960px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+#header-nav {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-nav > a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+header a:link {
+    color: #0d0d0d;
+}
+
+header a:visited {
+    color: #0d0d0d;
+}
+
+header a:hover {
+    color: #0d0d0d;
+    text-decoration: underline #0d0d0d 1px;
+    text-underline-offset: 1px;
+}
+
+header a:active {
+    color: #0d0d0d;
+}
+
+#main-visual {
+    position: relative;
+    height: 400px;
+}
+
+#main-visual-text {
+    background-color: #2710d5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    border-bottom-right-radius: 476px;
+    width: 100%;
+    height: 100%;
+    max-width: 620px;
+    z-index: 11;
+}
+
+#main-visual h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 100px 0 0 50px;
+}
+
+#main-visual p {
+    font-size: 28px;
+    margin: 0 0 0 50px;
+}
+
+#main-visual img {
+    max-width: 620px;
+    border-top-left-radius: 476px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+#mission {
+    margin: 80px auto 80px auto;
+    width: 100%;
+}
+
+.section-title {
+    margin: 40px 0 0 0;
+}
+
+.section-title::after {
+    content: url("images/line.png");
+    margin-left: 10px;
+}
+
+#mission-flex {
+    display: flex;
+    width: 100%;
+}
+
+#mission-flex-box1 {
+    width: 50%;
+    margin: 20px;
+}
+
+#mission-flex-box1 img {
+    width: 100%;
+}
+
+h3 {
+    font-size: 27px;
+}
+
+#mission-flex-box2 {
+    width: 50%;
+}
+
+#mission-flex-box2 > img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+#product {
+    background-color: #fafafa;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 10px 40px 0px 40px;
+}
+
+#product-flex {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+}
+
+#product-flex-box-left {
+    width: 50%;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#product-flex-box-right {
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.product-flex-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.product-flex-box {
+    width: 100%;
+}
+
+.product-flex-box-text {
+    width: 70%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 280px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
+}
+
+#product-flex img {
+    width: 100%;
+}
+
+
+
+
+
